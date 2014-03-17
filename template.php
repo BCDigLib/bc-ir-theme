@@ -225,14 +225,14 @@ function ir7_preprocess_block(&$variables, $hook) {
 }
 // */
 
-function ir7_form_islandora_solr_simple_search_form_alter(&$form, &$form_state, $form_id) {
+function bc_ir_theme_form_islandora_solr_simple_search_form_alter(&$form, &$form_state, $form_id) {
   $link = array(
     '#markup' => l(t("Advanced Search"), "advanced-search", array('attributes' => array('class' => array('adv_search')))),
   );
   $form['simple']['advanced_link'] = $link;
 }
 
-function ir7_preprocess_html(&$variables) {
+function bc_ir_theme_preprocess_html(&$variables) {
   drupal_add_css('http://openfontlibrary.org/face/linear-regular', array('group' => CSS_THEME, 'preprocess' => FALSE));
   drupal_add_css('http://openfontlibrary.org/face/open-baskerville', array('group' => CSS_THEME, 'preprocess' => FALSE));
   drupal_add_css('http://openfontlibrary.org/face/news-cycle', array('group' => CSS_THEME, 'preprocess' => FALSE));
@@ -241,7 +241,7 @@ function ir7_preprocess_html(&$variables) {
 /**
  * Implements hook_block_view_MODULE_DELTA_alter().
  */
-function ir7_block_view_islandora_solr_simple_alter(&$data, $block) {
-  drupal_add_js(drupal_get_path('theme', 'ir7') . '/js/clean_simple_search.js');
+function bc_ir_theme_block_view_islandora_solr_simple_alter(&$data, $block) {
+  drupal_add_js(drupal_get_path('theme', 'bc-ir-theme') . '/js/clean_simple_search.js');
 }
 
