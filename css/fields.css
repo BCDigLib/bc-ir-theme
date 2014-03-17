@@ -13,12 +13,12 @@
 /*
  * Field wrappers when the Fences module is enabled.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/fields\.scss}line{font-family:\0000321}}
+/* line 21, ../sass/fields.scss */
 .field-label {
   /* The optional label for a field. */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/fields\.scss}line{font-family:\0000324}}
+/* line 24, ../sass/fields.scss */
 .field-FIELDNAME {
   /* Underscores in field name are replaced with dashes. */
 }
@@ -27,7 +27,7 @@
  * If you don't use the Fences module, that's fine. Really. I think. Just use
  * these selectors instead:
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/fields\.scss}line{font-family:\0000333}}
+/* line 33, ../sass/fields.scss */
 .field {
   /* Wrapper for any field. */
 }
@@ -38,7 +38,7 @@
 /*
  * Field types (Contrib)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/fields\.scss}line{font-family:\0000383}}
+/* line 83, ../sass/fields.scss */
 .field-type-datetime {
   /* Always use "datetime" when creating new CCK date fields. "date" and "datestamp" are legacy types. */
 }
@@ -46,7 +46,7 @@
 /*
  * Named fields
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/drupal-7\.15\/sites\/all\/themes\/ir7\/sass\/fields\.scss}line{font-family:\00003105}}
+/* line 105, ../sass/fields.scss */
 .field-name-field-FIELDNAME {
   /* Underscores in field name are replaced with dashes. */
 }

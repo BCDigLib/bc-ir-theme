@@ -9,17 +9,17 @@
 /*
  * Body
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\0000316}}
+/* line 16, ../sass/pages.scss */
 html {
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\0000320}}
+/* line 20, ../sass/pages.scss */
 body {
   margin: 0;
   padding: 0;
   background: #DAD8D8;
-  background: url('../images/bg.png?1376508837') repeat scroll 0 0 #222222;
+  background: url('../images/bg.png?1395077337') repeat scroll 0 0 #222222;
   font-family: 'ProximaNova';
   font-weight: normal;
   min-height: 100%;
@@ -27,12 +27,12 @@ body {
   border-right: 10px solid #5a5b5d;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\0000332}}
+/* line 32, ../sass/pages.scss */
 #page {
   background: #E2E2E2;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\0000336}}
+/* line 36, ../sass/pages.scss */
 #page-title {
   background: none !important;
   font-weight: normal;
@@ -42,11 +42,11 @@ body {
  * The skip-link link will be completely hidden until a user tabs to the link.
  * See the element-focusable rule in system.base.css.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\0000346}}
+/* line 46, ../sass/pages.scss */
 #skip-link {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\0000350}}
+/* line 50, ../sass/pages.scss */
 #skip-link a,
 #skip-link a:visited {
   display: block;
@@ -60,32 +60,32 @@ body {
 /*
  * Searching
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\0000364}}
+/* line 64, ../sass/pages.scss */
 .islandora-solr-search-result {
-  border-top: 1px solid #cccccc;
-  border-bottom: 1px solid #cccccc;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
   background: #f7f9f6;
   box-shadow: 0 3px 3px -3px #808184;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\0000371}}
+/* line 71, ../sass/pages.scss */
 .islandora-solr-search-results {
   margin-top: 3em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\0000375}}
+/* line 75, ../sass/pages.scss */
 .solr-fields dt, .solr-fields dd {
-  border-top: 1px solid #eef0ed;
+  border-top: 1px solid #EEF0ED;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\0000378}}
+/* line 78, ../sass/pages.scss */
 dl.solr-fields {
   border-top: none;
   float: right;
   width: 83%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\0000384}}
+/* line 84, ../sass/pages.scss */
 dl.solr-thumb {
   float: left;
   width: 15%;
@@ -95,12 +95,12 @@ dl.solr-thumb {
 /*
  * Header
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\0000397}}
+/* line 97, ../sass/pages.scss */
 .logged-in.not-front #header {
   padding-top: 1.25em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003101}}
+/* line 101, ../sass/pages.scss */
 #logo {
   /* Wrapping link for logo */
   float: left;
@@ -108,12 +108,12 @@ dl.solr-thumb {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003106}}
+/* line 106, ../sass/pages.scss */
 #logo img {
   vertical-align: bottom;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003111}}
+/* line 111, ../sass/pages.scss */
 #name-and-slogan {
   /* Wrapper for website name and slogan */
   float: left;
@@ -121,7 +121,7 @@ dl.solr-thumb {
   margin-top: -0.2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003117}}
+/* line 117, ../sass/pages.scss */
 #site-name {
   /* The name of the website */
   margin: 0;
@@ -130,19 +130,19 @@ dl.solr-thumb {
   font-weight: normal;
   color: #5A5B5D;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003124}}
+/* line 124, ../sass/pages.scss */
 #site-name a:link,
 #site-name a:visited {
   color: #5A5B5D;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003130}}
+/* line 130, ../sass/pages.scss */
 #site-name a:hover,
 #site-name a:focus {
   text-decoration: underline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003135}}
+/* line 135, ../sass/pages.scss */
 #site-slogan {
   /* The slogan (or tagline) of a website */
   margin: 0;
@@ -151,7 +151,7 @@ dl.solr-thumb {
   font-weight: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003142}}
+/* line 142, ../sass/pages.scss */
 .region-header {
   /* Wrapper for any blocks placed in the header region */
   clear: both;
@@ -161,7 +161,7 @@ dl.solr-thumb {
 /*
  * Main (container for everything else)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003150}}
+/* line 150, ../sass/pages.scss */
 #main {
   background: none !important;
 }
@@ -169,21 +169,21 @@ dl.solr-thumb {
 /*
  * Content
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003158}}
+/* line 158, ../sass/pages.scss */
 #content {
   box-shadow: 0 0 5px 1px rgba(38, 37, 38, 0.3);
   background: #fff;
   padding: 1.5em 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003164}}
+/* line 164, ../sass/pages.scss */
 .front #content {
   padding: 0;
   background: none;
   box-shadow: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003173}}
+/* line 173, ../sass/pages.scss */
 .breadcrumb {
   /* The path to the current page in the form of a list of links */
   font-size: 70%;
@@ -191,12 +191,12 @@ dl.solr-thumb {
   line-height: 1.5em;
   padding-left: 9px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003178}}
+/* line 178, ../sass/pages.scss */
 .breadcrumb ol {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003182}}
+/* line 182, ../sass/pages.scss */
 .breadcrumb li {
   border-radius: 3px 3px 3px 3px;
   display: inline-block;
@@ -204,31 +204,31 @@ dl.solr-thumb {
   margin: 5px 0;
   padding: 2px 5px 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003189}}
+/* line 189, ../sass/pages.scss */
 .breadcrumb li a:hover {
   color: #888;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003193}}
+/* line 193, ../sass/pages.scss */
 .breadcrumb li:hover {
   background: #F7F9F6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003196}}
+/* line 196, ../sass/pages.scss */
 .breadcrumb .islandora-solr-breadcrumb-super {
   font-size: 100%;
   position: relative;
   left: 1px;
   top: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003200}}
+/* line 200, ../sass/pages.scss */
 .breadcrumb .islandora-solr-breadcrumb-super a {
   color: #222;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003203}}
+/* line 203, ../sass/pages.scss */
 .breadcrumb .islandora-solr-breadcrumb-super a:hover {
   color: red;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003214}}
+/* line 214, ../sass/pages.scss */
 h1.title,
 h2.node-title,
 h2.block-title,
@@ -237,40 +237,40 @@ h2.comment-form,
 h3.title {
   /* Comment title */
   margin: 0;
-  color: #5a5b5d !important;
+  color: #5A5B5D !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003219}}
+/* line 219, ../sass/pages.scss */
 tr.even {
   /* Some tables have rows marked even or odd. */
   /* background-color: #eee; */
   /* Drupal core uses a #eee background */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003223}}
+/* line 223, ../sass/pages.scss */
 tr.odd {
   /* background-color: #eee; */
   /* Drupal core uses a #eee background */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003227}}
+/* line 227, ../sass/pages.scss */
 div.messages {
   /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
   margin: 1.5em 0;
   /* Drupal core uses "6px 0" margin */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003230}}
+/* line 230, ../sass/pages.scss */
 div.messages ul {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003236}}
+/* line 236, ../sass/pages.scss */
 div.status {
   /* Normal priority messages */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003240}}
+/* line 240, ../sass/pages.scss */
 div.warning,
 tr.warning {
   /* Medium priority messages */
@@ -278,53 +278,53 @@ tr.warning {
   /* Drupal core uses: 1px solid #f0c020 */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003245}}
+/* line 245, ../sass/pages.scss */
 div.error,
 tr.error {
   /* High priority messages. See also the .error declaration below. */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003248}}
+/* line 248, ../sass/pages.scss */
 .error {
   /* Errors that are separate from div.messages status messages. */
   /* color: #e55; */
   /* Drupal core uses a #e55 background */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003252}}
+/* line 252, ../sass/pages.scss */
 .warning {
   /* Warnings that are separate from div.messages status messages. */
   /* color: #e09010; */
   /* Drupal core uses a #e09010 background */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003256}}
+/* line 256, ../sass/pages.scss */
 .tabs {
   /* See also the tabs.css file. */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003259}}
+/* line 259, ../sass/pages.scss */
 .region-help {
   /* Help text on a page */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003262}}
+/* line 262, ../sass/pages.scss */
 .more-help-link {
   /* Link to more help */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003265}}
+/* line 265, ../sass/pages.scss */
 .region-content {
   /* Wrapper for the actual page content */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003268}}
+/* line 268, ../sass/pages.scss */
 ul.inline {
   /* List of links generated by theme_links() */
   display: inline;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003272}}
+/* line 272, ../sass/pages.scss */
 ul.inline li {
   display: inline;
   list-style-type: none;
@@ -332,52 +332,52 @@ ul.inline li {
   /* LTR */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003278}}
+/* line 278, ../sass/pages.scss */
 span.field-label {
   /* The inline field label used by the Fences module */
   padding: 0 1em 0 0;
   /* LTR */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003282}}
+/* line 282, ../sass/pages.scss */
 .item-list .pager {
   /* A list of page numbers when more than 1 page of content is available */
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003285}}
+/* line 285, ../sass/pages.scss */
 .item-list .pager li {
   /* Each page number in the pager list */
   padding: 0 0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003290}}
+/* line 290, ../sass/pages.scss */
 ul.pager li.pager-current {
-  background: none repeat scroll 0 0 #cccecf;
+  background: none repeat scroll 0 0 #CCCECF;
   border: 1px solid #419845;
   color: #5A5B5D;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003296}}
+/* line 296, ../sass/pages.scss */
 .feed-icon {
   /* The link to the RSS or Atom feed for the current list of content */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003299}}
+/* line 299, ../sass/pages.scss */
 .more-link {
   /* Aggregator, blog, and forum more link */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003302}}
+/* line 302, ../sass/pages.scss */
 #google-pdf-viewer {
   padding-top: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003306}}
+/* line 306, ../sass/pages.scss */
 .islandora-pdf-link {
   float: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003311}}
+/* line 311, ../sass/pages.scss */
 .islandora-pdf-sidebar ul {
   padding: 0 1em;
 }
@@ -388,7 +388,7 @@ ul.pager li.pager-current {
  * Remember to NOT add padding or margin to your .region-sidebar-first
  * (see the layout.css file.)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003323}}
+/* line 323, ../sass/pages.scss */
 .region-sidebar-first {
   font-size: 80%;
 }
@@ -402,7 +402,7 @@ ul.pager li.pager-current {
 /*
  * Footer
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003341}}
+/* line 341, ../sass/pages.scss */
 #footer {
   margin-top: 1.8em;
 }
@@ -410,7 +410,7 @@ ul.pager li.pager-current {
 /*
  * Page bottom
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\/themes\/ir7\/sass\/pages\.scss}line{font-family:\00003349}}
+/* line 349, ../sass/pages.scss */
 .region-bottom {
   /* Wrapper for any blocks placed in the page bottom region */
 }
