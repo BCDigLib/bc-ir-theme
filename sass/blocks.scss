@@ -192,18 +192,6 @@
 }
 
 /**
-  * @Menus 
-  *
-**/
-
-#block-menu-menu-header-menu {
-  height: 30px;
-    @include filter-gradient(#343334, #5a5b5d, vertical); // IE6-9
-    @include background-image(linear-gradient(top,  #343334 0%,#5a5b5d 100%));
-}
-
-
-/**
  * @Views Blocks
  *
 **/

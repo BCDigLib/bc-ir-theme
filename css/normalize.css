@@ -183,16 +183,16 @@ a:active {
 /* line 204, ../sass/normalize.scss */
 .region-sub-header a:link {
   text-decoration: none;
-  color: #fff;
+  color: #990000;
 }
 /* line 209, ../sass/normalize.scss */
 .region-sub-header a:visited {
-  color: #fff;
+  color: #990000;
 }
 /* line 214, ../sass/normalize.scss */
 .region-sub-header a:hover,
 .region-sub-header a:focus {
-  color: #419845;
+  color: #3D1211;
 }
 
 /* =============================================================================
