@@ -148,18 +148,18 @@ body {
 /* line 168, ../sass/normalize.scss */
 a:link {
   text-decoration: none;
-  color: #419845;
+  color: #990000;
 }
 
 /* line 173, ../sass/normalize.scss */
 a:visited {
-  color: #419845;
+  color: #990000;
 }
 
 /* line 178, ../sass/normalize.scss */
 a:hover,
 a:focus {
-  color: #888;
+  color: #3D1211;
 }
 
 /*

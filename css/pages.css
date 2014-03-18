@@ -18,7 +18,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: #DAD8D8;
+  background: #FFF;
   background: url('../images/bg.png?1395077337') repeat scroll 0 0 #222222;
   font-family: 'ProximaNova';
   font-weight: normal;
@@ -29,7 +29,7 @@ body {
 
 /* line 32, ../sass/pages.scss */
 #page {
-  background: #E2E2E2;
+  background: #FFF;
 }
 
 /* line 36, ../sass/pages.scss */
@@ -237,7 +237,7 @@ h2.comment-form,
 h3.title {
   /* Comment title */
   margin: 0;
-  color: #5A5B5D !important;
+  color: #3D1211 !important;
 }
 
 /* line 219, ../sass/pages.scss */
