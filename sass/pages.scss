@@ -20,7 +20,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: #DAD8D8;
+  background: #FFF;
   background: image-url('bg.png') repeat scroll 0 0 #222222;
   font-family: 'ProximaNova';
   font-weight: normal;
@@ -30,7 +30,7 @@ body {
 }
 
 #page {
-  background: #E2E2E2;
+  background: #FFF;
 }
 
 #page-title {
@@ -57,10 +57,10 @@ body {
   }
 }
 
-
 /*
  * Searching
  */
+
 .islandora-solr-search-result {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
@@ -213,7 +213,7 @@ h2.title, /* Comment section heading */
 h2.comment-form, /* Comment form heading */
 h3.title { /* Comment title */
   margin: 0;
-  color: #5A5B5D !important;
+  color: #3D1211 !important;
 }
 
 tr.even { /* Some tables have rows marked even or odd. */

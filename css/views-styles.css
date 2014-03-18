@@ -10,18 +10,18 @@
  * pages. If your sub-theme isn't used for admin pages, you can remove this
  * entire section.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/views-styles\.scss}line{font-family:\0000318}}
+/* line 19, ../sass/views-styles.scss */
 .views-displays .secondary li {
   float: none;
   margin: 0 6px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/views-styles\.scss}line{font-family:\0000324}}
+/* line 25, ../sass/views-styles.scss */
 .views-displays .secondary a:link,
 .views-displays .secondary a:visited {
   text-shadow: none;
   padding: 2px 7px 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/views-styles\.scss}line{font-family:\0000329}}
+/* line 30, ../sass/views-styles.scss */
 .views-displays .secondary .open > a {
   -webkit-border-radius: 7px 7px 0 0;
   -moz-border-radius: 7px 7px 0 0;
@@ -29,15 +29,15 @@
   -o-border-radius: 7px 7px 0 0;
   border-radius: 7px 7px 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/views-styles\.scss}line{font-family:\0000331}}
+/* line 32, ../sass/views-styles.scss */
 .views-displays .secondary .open > a:hover {
   color: #333;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/views-styles\.scss}line{font-family:\0000336}}
+/* line 37, ../sass/views-styles.scss */
 .views-displays .secondary .action-list li {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/views-styles\.scss}line{font-family:\0000338}}
+/* line 39, ../sass/views-styles.scss */
 .views-displays .secondary .action-list li:first-child {
   -webkit-border-radius: 0 7px 0 0;
   -moz-border-radius: 0 7px 0 0;
@@ -45,7 +45,7 @@
   -o-border-radius: 0 7px 0 0;
   border-radius: 0 7px 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/views-styles\.scss}line{font-family:\0000341}}
+/* line 42, ../sass/views-styles.scss */
 .views-displays .secondary .action-list li:last-child {
   -webkit-border-radius: 0 0 7px 7px;
   -moz-border-radius: 0 0 7px 7px;
@@ -57,12 +57,12 @@
 /*
  * Slideshow
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/views-styles\.scss}line{font-family:\0000351}}
+/* line 52, ../sass/views-styles.scss */
 #block-views-slideshow-block {
   height: 300px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/views-styles\.scss}line{font-family:\0000356}}
+/* line 57, ../sass/views-styles.scss */
 .col-left {
   clear: left;
   float: left;
@@ -70,35 +70,35 @@
   width: 300px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/views-styles\.scss}line{font-family:\0000363}}
+/* line 64, ../sass/views-styles.scss */
 .col-right {
   position: absolute;
   right: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/views-styles\.scss}line{font-family:\0000368}}
+/* line 69, ../sass/views-styles.scss */
 .views-slideshow-cycle-main-frame-row {
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/views-styles\.scss}line{font-family:\0000372}}
+/* line 73, ../sass/views-styles.scss */
 .views-view-grid {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/views-styles\.scss}line{font-family:\0000375}}
+/* line 76, ../sass/views-styles.scss */
 .views-view-grid td {
   width: 25%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/views-styles\.scss}line{font-family:\0000378}}
+/* line 79, ../sass/views-styles.scss */
 .views-view-grid a {
   color: #3D8396;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/views-styles\.scss}line{font-family:\0000381}}
+/* line 82, ../sass/views-styles.scss */
 .views-view-grid a:hover {
   color: #888;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/DGI\%20Sandbox\%20IR\%202\/themes\/ir7\/sass\/views-styles\.scss}line{font-family:\0000389}}
+/* line 90, ../sass/views-styles.scss */
 #block-views-frontpage-solr-boxes-block .views-field-dctitle {
   margin: 0.5em 0;
   display: inline-block;

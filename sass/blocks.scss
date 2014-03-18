@@ -22,12 +22,12 @@
   }
 
   h2.block-title { /* Block title */
-    border-bottom: 2px solid #419845;
+    border-bottom: 2px solid #3D1211;
   }
 }
 
 .front h2.block-title {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #3D1211;
     font-size: 125%;
     font-weight: normal;
     padding: 0.5em 0 0.9em;
@@ -42,7 +42,7 @@
 **/
 
 #block-islandora-solr-simple, .image-block-front, .submit-collection-anon, .submit-collection, .welcome {
-  background: #fff;
+  background: #E3E3E3;
   float: right;
   position: relative;
   z-index: 100;
@@ -74,7 +74,7 @@
 
 #block-views-frontpage-solr-boxes-block-1, #block-views-frontpage-solr-boxes-block-2, #block-views-frontpage-solr-boxes-block-3 {
   float: left;
-  background: #fff;
+  background: #E3E3E3;
   float: left;
   padding: 15px;
   margin-right: 1.1%;
@@ -192,18 +192,6 @@
 }
 
 /**
-  * @Menus 
-  *
-**/
-
-#block-menu-menu-header-menu {
-  height: 30px;
-    @include filter-gradient(#343334, #5a5b5d, vertical); // IE6-9
-    @include background-image(linear-gradient(top,  #343334 0%,#5a5b5d 100%));
-}
-
-
-/**
  * @Views Blocks
  *
 **/
@@ -216,7 +204,7 @@
 
 .submit-collection, .submit-collection-anon { /* First block created with "Add block" link */
   height: 70px !important;
-  background: #419845 !important;
+  background: #990000 !important;
   font-size: 130%;
   font-weight: normal;
   line-height: 3.2em;
@@ -237,7 +225,7 @@
   float: left;
   padding: 15px;
   margin: 0 1.1% 0 0;
-  background: #fff;
+  background: #E3E3E3;
   min-height: 520px;
   box-shadow: 0 0 5px 1px rgba(38, 37, 38, 0.3);
     -webkit-box-shadow: 0 0 5px 1px rgba(38, 37, 38, 0.3);
