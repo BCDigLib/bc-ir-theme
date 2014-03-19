@@ -27,21 +27,19 @@
 }
 
 .front h2.block-title {
-    border-bottom: 1px solid #3D1211;
+    border-bottom: 1px solid #990000;
     font-size: 125%;
     font-weight: normal;
     padding: 0.5em 0 0.9em;
     margin-bottom: 0.9em;
 }
 
-
-
 /**
  * @Islandora Blocks
  *
 **/
 
-#block-islandora-solr-simple, .image-block-front, .submit-collection-anon, .submit-collection, .welcome {
+.image-block-front, .submit-collection-anon, .submit-collection, .welcome {
   background: #E3E3E3;
   float: right;
   position: relative;
@@ -51,6 +49,10 @@
   padding: 10px;
   box-shadow:  0px 0px 5px 1px rgba(38, 37, 38, 0.3);
     -webkit-box-shadow:  0px 0px 5px 1px rgba(38, 37, 38, 0.5);
+}
+
+#block-islandora-solr-simple {
+  width: 100%;
 }
 
 .welcome {
@@ -70,6 +72,7 @@
 #block-accordion-rotator-accordion-rotator {
   max-height: 446px;
   float: left;
+  width: 99.7%;
 }
 
 #block-views-frontpage-solr-boxes-block-1, #block-views-frontpage-solr-boxes-block-2, #block-views-frontpage-solr-boxes-block-3 {
@@ -224,11 +227,11 @@
 #block-views-object-visitors-by-month-block {
   float: left;
   padding: 15px;
-  margin: 0 1.1% 0 0;
+  margin: 0 10px 0 0;
   background: #E3E3E3;
   min-height: 520px;
-  box-shadow: 0 0 5px 1px rgba(38, 37, 38, 0.3);
-    -webkit-box-shadow: 0 0 5px 1px rgba(38, 37, 38, 0.3);
+  box-shadow: 0 0 2px 1px rgba(38, 37, 38, 0.3);
+    -webkit-box-shadow: 0 0 2px 1px rgba(38, 37, 38, 0.3);
 }
 
 #block-views-top-site-searches-block {
@@ -259,6 +262,7 @@
 
 #block-views-frontpage-solr-boxes-block {
   @extend #block-views-object-visitors-by-month-block;
+  clear: left;
 }
 
 /* Accordion Rotator */

@@ -73,10 +73,6 @@ a.button {
  *
 **/
 /* line 65, ../sass/forms.scss */
-#block-islandora-solr-simple #edit-simple {
-  margin-top: 3em;
-}
-/* line 68, ../sass/forms.scss */
 #block-islandora-solr-simple .form-text {
   border: 1px solid #ccc;
   border-radius: 7px 7px 7px 7px;
@@ -87,7 +83,7 @@ a.button {
   padding-left: 0.5em;
   width: 97%;
 }
-/* line 78, ../sass/forms.scss */
+/* line 75, ../sass/forms.scss */
 #block-islandora-solr-simple .form-submit {
   background: url("../images/search_btn.png") no-repeat scroll 0 0 transparent;
   border: medium none;
@@ -100,12 +96,12 @@ a.button {
   width: 26px;
 }
 
-/* line 91, ../sass/forms.scss */
+/* line 88, ../sass/forms.scss */
 .not-front #block-islandora-solr-simple .form-text {
   width: 99%;
 }
 
-/* line 96, ../sass/forms.scss */
+/* line 93, ../sass/forms.scss */
 #islandora-solr-result-count {
   float: left;
   position: relative;
@@ -113,14 +109,14 @@ a.button {
   color: #808184;
 }
 
-/* line 103, ../sass/forms.scss */
+/* line 100, ../sass/forms.scss */
 .adv_search {
   font-size: 80%;
   margin-right: -18px;
   float: right;
 }
 
-/* line 110, ../sass/forms.scss */
+/* line 107, ../sass/forms.scss */
 .islandora-solr-content .pager {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
@@ -128,11 +124,11 @@ a.button {
   padding: 0.5em 0;
   box-shadow: 0 3px 3px -3px #808184;
 }
-/* line 119, ../sass/forms.scss */
+/* line 116, ../sass/forms.scss */
 .islandora-solr-content table tr {
   border-bottom: 1px solid #ececec;
 }
-/* line 121, ../sass/forms.scss */
+/* line 118, ../sass/forms.scss */
 .islandora-solr-content table tr td {
   padding: 1em 0.3em;
 }
@@ -140,7 +136,7 @@ a.button {
 /*
  * Password confirmation
  */
-/* line 136, ../sass/forms.scss */
+/* line 133, ../sass/forms.scss */
 .password-parent,
 .confirm-parent {
   margin: 0;
@@ -149,7 +145,7 @@ a.button {
 /*
  * Search (search-block-form.tpl.php)
  */
-/* line 144, ../sass/forms.scss */
+/* line 141, ../sass/forms.scss */
 #block-search-form {
   /* Wrapper for the search form */
 }
@@ -157,7 +153,7 @@ a.button {
 /*
  * Drupal's default login form block
  */
-/* line 151, ../sass/forms.scss */
+/* line 148, ../sass/forms.scss */
 #user-login-form {
   text-align: left;
   /* LTR */
@@ -168,13 +164,13 @@ a.button {
    * styling of list items.
    */
 }
-/* line 161, ../sass/forms.scss */
+/* line 158, ../sass/forms.scss */
 #user-login-form ul {
   /* OpenID creates a new ul above the login form's links. */
   margin-bottom: 0;
   /* Position OpenID's ul next to the rest of the links. */
 }
-/* line 166, ../sass/forms.scss */
+/* line 163, ../sass/forms.scss */
 html.js #user-login-form li.openid-link,
 #user-login-form li.openid-link {
   /* The "Log in using OpenID" link. */
@@ -183,13 +179,13 @@ html.js #user-login-form li.openid-link,
   /* LTR */
   /* Un-do some of the padding on the ul list. */
 }
-/* line 171, ../sass/forms.scss */
+/* line 168, ../sass/forms.scss */
 #user-login-form li.user-link {
   /* The "Cancel OpenID login" link. */
   margin-top: 1.5em;
 }
 
-/* line 176, ../sass/forms.scss */
+/* line 173, ../sass/forms.scss */
 #user-login ul {
   margin: 1.5em 0;
 }
@@ -200,7 +196,7 @@ html.js #user-login-form li.openid-link,
  * We overrode these styles in normalize.css, but restore them for the admin
  * section of the site.
  */
-/* line 188, ../sass/forms.scss */
+/* line 185, ../sass/forms.scss */
 form th {
   text-align: left;
   /* LTR */
@@ -208,15 +204,15 @@ form th {
   /* LTR */
   border-bottom: 3px solid #ccc;
 }
-/* line 194, ../sass/forms.scss */
+/* line 191, ../sass/forms.scss */
 form tbody {
   border-top: 1px solid #ccc;
 }
-/* line 198, ../sass/forms.scss */
+/* line 195, ../sass/forms.scss */
 form tr.even {
   background-color: #fff;
 }
-/* line 202, ../sass/forms.scss */
+/* line 199, ../sass/forms.scss */
 form table .item-list ul {
   margin: 0;
 }
@@ -224,7 +220,7 @@ form table .item-list ul {
 /*
  * Drupal core wrongly puts this in system.menus.css. Since we override that, add it back.
  */
-/* line 221, ../sass/forms.scss */
+/* line 218, ../sass/forms.scss */
 td.menu-disabled {
   background: #ccc;
 }
