@@ -68,9 +68,10 @@ a.button { /* Buttons used by contrib modules like Media */
     box-shadow: 0 3px 3px -3px #808184;
     color: #808184;
     float: right;
-    height: 1.9em;
+    height: 2em;
     padding-left: 0.5em;
     width: 97%;
+    font-size: 80%;
   }
   .form-submit {
     background: url("../images/search_btn.png") no-repeat scroll 0 0 transparent;
@@ -79,16 +80,11 @@ a.button { /* Buttons used by contrib modules like Media */
     height: 26px;
     position: relative;
     float: right;
-    right: 5px;
-    top: -30px;
+    right: 3px;
+    top: -28px;
     width: 26px;
   }
 }
-
-.not-front #block-islandora-solr-simple .form-text {
-  width: 99%;
-}
-
 
 #islandora-solr-result-count {
   float: left;
@@ -110,6 +106,7 @@ a.button { /* Buttons used by contrib modules like Media */
     margin: 3em 0 2.2em;
     padding: 0.5em 0;
     box-shadow: 0 3px 3px -3px #808184;
+    background: #fff;
   }
 
   table {
