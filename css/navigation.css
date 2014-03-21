@@ -81,53 +81,55 @@ li a.active {
 /* line 86, ../sass/navigation.scss */
 #block-menu-menu-header-menu {
   margin-bottom: 0;
-  position: relative;
+  height: 2.5em;
   text-align: right;
-  font-size: 85%;
-  float: right;
-  line-height: 0.3em;
-  height: 30px;
+  font-size: 90%;
+}
+/* line 91, ../sass/navigation.scss */
+#block-menu-menu-header-menu ul {
+  padding: 0;
+  margin: 0;
 }
 /* line 94, ../sass/navigation.scss */
-#block-menu-menu-header-menu ul {
-  margin: 1em 0.8em;
-  padding-left: 15px;
-}
-/* line 97, ../sass/navigation.scss */
 #block-menu-menu-header-menu ul li {
   display: inline-block;
-  margin: 0 0.8em;
+  margin: 0 0.35em;
 }
-/* line 101, ../sass/navigation.scss */
-#block-menu-menu-header-menu ul li.first {
-  margin-left: 0;
+/* line 97, ../sass/navigation.scss */
+#block-menu-menu-header-menu ul li a {
+  border-bottom: 2px solid #B29D6B;
+}
+/* line 100, ../sass/navigation.scss */
+#block-menu-menu-header-menu ul li a:hover, #block-menu-menu-header-menu ul li a.active {
+  color: #990000;
+  border-bottom: 4px solid #B29D6B;
 }
 
-/* line 107, ../sass/navigation.scss */
+/* line 108, ../sass/navigation.scss */
 #block-menu-menu-footer-menu {
   font-size: 75%;
   float: left;
 }
-/* line 110, ../sass/navigation.scss */
+/* line 111, ../sass/navigation.scss */
 #block-menu-menu-footer-menu ul {
   list-style: none;
   margin: 1em 0;
 }
-/* line 113, ../sass/navigation.scss */
+/* line 114, ../sass/navigation.scss */
 #block-menu-menu-footer-menu ul li {
   display: inline-block;
   margin-right: 1em;
 }
-/* line 116, ../sass/navigation.scss */
+/* line 117, ../sass/navigation.scss */
 #block-menu-menu-footer-menu ul li a, #block-menu-menu-footer-menu ul li a:visited {
   color: #424143;
 }
-/* line 119, ../sass/navigation.scss */
+/* line 120, ../sass/navigation.scss */
 #block-menu-menu-footer-menu ul li a:hover {
   color: #419845;
 }
 
-/* line 127, ../sass/navigation.scss */
+/* line 128, ../sass/navigation.scss */
 .footer-logo {
   float: left;
 }
@@ -135,7 +137,7 @@ li a.active {
 /*
   *
   */
-/* line 134, ../sass/navigation.scss */
+/* line 135, ../sass/navigation.scss */
 .sidebar {
   box-shadow: 0 0 5px 1px rgba(38, 37, 38, 0.3);
   padding: 2em 1.5em;

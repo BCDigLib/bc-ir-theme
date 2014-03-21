@@ -25,8 +25,8 @@ body {
   font-family: 'ProximaNova';
   font-weight: normal;
   min-height: 100%;
-    border-left: 10px solid #5a5b5d;
-    border-right: 10px solid #5a5b5d;  
+    border-left: 10px solid #E3E3E3;
+    border-right: 10px solid #E3E3E3;  
 }
 
 #page {
@@ -94,18 +94,15 @@ dl.solr-thumb {
 
 #header {
 }
+
 .logged-in.not-front #header {
   padding-top: 1.25em;
 }
 
 #logo { /* Wrapping link for logo */
   float: left; /* LTR */
-  margin: 0;
+  margin: 1.75em 0 0;
   padding: 0;
-
-  img {
-    vertical-align: bottom;
-  }
 }
 
 #name-and-slogan { /* Wrapper for website name and slogan */
@@ -140,7 +137,8 @@ dl.solr-thumb {
 }
 
 .region-header { /* Wrapper for any blocks placed in the header region */
-  clear: both; /* Clear the logo */
+  float: right;
+  margin: 1.2em 0.75em 0 0;
 }
 
 /*
@@ -156,13 +154,12 @@ dl.solr-thumb {
  */
 
 #content {
-  box-shadow: 0 0 5px 1px rgba(38, 37, 38, 0.3);
-  background: #fff;
-  padding: 1.5em 1em;
+  background: url("../images/bg.png?1395077337") repeat scroll 0 0 #efefef;
+  padding: 1em;
+  overflow: hidden;
 }
 
 .front #content {
-  padding: 0; 
   background: none;
   box-shadow: none;
 }
@@ -313,6 +310,17 @@ ul.pager li.pager-current {
   }
 }
 
+.islandora-video-content, .islandora-basic-image-content, .islandora-audio-content {
+  width: auto !important;
+}
+
+fieldset.islandora-metadata {
+  border: 0 none;
+  dt {
+    text-align: left;
+  }
+}
+
 /*
  * First sidebar (on left in LTR languages, on right in RTL)
  *
@@ -339,7 +347,9 @@ ul.pager li.pager-current {
  */
 
 #footer {
-  margin-top: 1.8em;
+  padding-top: 1em;
+  margin-top: 1.5em;
+  border-top: 1px solid #990000;
 }
 
 /*

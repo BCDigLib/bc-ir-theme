@@ -85,21 +85,22 @@ li a.active {
 
 #block-menu-menu-header-menu {
   margin-bottom: 0;
-  position: relative;
+  height: 2.5em;
   text-align: right;
-  font-size: 85%;
-  float: right;  
-  line-height: 0.3em;
-  height: 30px;
+  font-size: 90%;
   ul {
-    margin: 1em 0.8em;
-    padding-left: 15px;
+    padding: 0;
+    margin: 0;
     li {
       display: inline-block; 
-      margin: 0 0.8em;
-    }
-    li.first {
-      margin-left: 0;
+      margin: 0 0.35em;
+      a {
+        border-bottom: 2px solid #B29D6B;
+      }
+      a:hover, a.active {
+        color: #990000;
+        border-bottom: 4px solid #B29D6B;
+      }
     }
   }
 }
