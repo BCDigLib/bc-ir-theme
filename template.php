@@ -244,4 +244,3 @@ function bc_ir_theme_preprocess_html(&$variables) {
 function bc_ir_theme_block_view_islandora_solr_simple_alter(&$data, $block) {
   drupal_add_js(drupal_get_path('theme', 'bc-ir-theme') . '/js/clean_simple_search.js');
 }
-

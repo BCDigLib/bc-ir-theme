@@ -154,7 +154,7 @@ dl.solr-thumb {
  */
 
 #content {
-  background: #E3E3E3;
+  background: url("../images/bg.png?1395077337") repeat scroll 0 0 #efefef;
   padding: 1em;
   overflow: hidden;
 }
@@ -307,6 +307,17 @@ ul.pager li.pager-current {
 .islandora-pdf-sidebar {
   ul {
     padding: 0 1em;
+  }
+}
+
+.islandora-video-content, .islandora-basic-image-content, .islandora-audio-content {
+  width: auto !important;
+}
+
+fieldset.islandora-metadata {
+  border: 0 none;
+  dt {
+    text-align: left;
   }
 }
 

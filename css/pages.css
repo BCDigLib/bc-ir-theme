@@ -167,7 +167,7 @@ dl.solr-thumb {
  */
 /* line 156, ../sass/pages.scss */
 #content {
-  background: #E3E3E3;
+  background: url("../images/bg.png?1395077337") repeat scroll 0 0 #efefef;
   padding: 1em;
   overflow: hidden;
 }
@@ -377,13 +377,27 @@ ul.pager li.pager-current {
   padding: 0 1em;
 }
 
+/* line 313, ../sass/pages.scss */
+.islandora-video-content, .islandora-basic-image-content, .islandora-audio-content {
+  width: auto !important;
+}
+
+/* line 317, ../sass/pages.scss */
+fieldset.islandora-metadata {
+  border: 0 none;
+}
+/* line 319, ../sass/pages.scss */
+fieldset.islandora-metadata dt {
+  text-align: left;
+}
+
 /*
  * First sidebar (on left in LTR languages, on right in RTL)
  *
  * Remember to NOT add padding or margin to your .region-sidebar-first
  * (see the layout.css file.)
  */
-/* line 320, ../sass/pages.scss */
+/* line 331, ../sass/pages.scss */
 .region-sidebar-first {
   font-size: 80%;
 }
@@ -397,7 +411,7 @@ ul.pager li.pager-current {
 /*
  * Footer
  */
-/* line 338, ../sass/pages.scss */
+/* line 349, ../sass/pages.scss */
 #footer {
   padding-top: 1em;
   margin-top: 1.5em;
@@ -407,7 +421,7 @@ ul.pager li.pager-current {
 /*
  * Page bottom
  */
-/* line 348, ../sass/pages.scss */
+/* line 359, ../sass/pages.scss */
 .region-bottom {
   /* Wrapper for any blocks placed in the page bottom region */
 }
