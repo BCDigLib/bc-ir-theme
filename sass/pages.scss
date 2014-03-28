@@ -314,6 +314,18 @@ ul.pager li.pager-current {
   width: auto !important;
 }
 
+#mediaplayer_wrapper, #mediaplayer {
+  width: 100% !important;
+}
+
+#islandora-bookmark {
+  #islandora-bookmark-fedora-repository-object-form {
+    h3 {
+    color: #000 !important;
+    }
+  }
+}
+
 fieldset.islandora-metadata {
   border: 0 none;
   dt {
