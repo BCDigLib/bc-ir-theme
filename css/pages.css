@@ -391,13 +391,18 @@ fieldset.islandora-metadata dt {
   text-align: left;
 }
 
+/* line 325, ../sass/pages.scss */
+.ir_citationCModel .citation {
+  display: block;
+}
+
 /*
  * First sidebar (on left in LTR languages, on right in RTL)
  *
  * Remember to NOT add padding or margin to your .region-sidebar-first
  * (see the layout.css file.)
  */
-/* line 331, ../sass/pages.scss */
+/* line 337, ../sass/pages.scss */
 .region-sidebar-first {
   font-size: 80%;
 }
@@ -411,7 +416,7 @@ fieldset.islandora-metadata dt {
 /*
  * Footer
  */
-/* line 349, ../sass/pages.scss */
+/* line 355, ../sass/pages.scss */
 #footer {
   padding-top: 1em;
   margin-top: 1.5em;
@@ -421,7 +426,7 @@ fieldset.islandora-metadata dt {
 /*
  * Page bottom
  */
-/* line 359, ../sass/pages.scss */
+/* line 365, ../sass/pages.scss */
 .region-bottom {
   /* Wrapper for any blocks placed in the page bottom region */
 }
