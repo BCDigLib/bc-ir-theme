@@ -68,10 +68,6 @@ body {
   box-shadow: 0 3px 3px -3px #808184;
 }
 
-.islandora-solr-search-results {
-  margin-top: 3em;
-}
-
 .solr-fields dt, .solr-fields dd {
   border-top: 1px solid #EEF0ED;
 }
@@ -326,6 +322,17 @@ ul.pager li.pager-current {
   }
 }
 
+#islandora-solr-top {
+  min-height: 45px;
+  #secondary-display-profiles {
+    margin-top: -1px;
+    margin-right: 5px;
+    li.last img {
+      vertical-align: 2px;
+    }
+  }
+}
+
 fieldset.islandora-metadata {
   border: 0 none;
   dt {
@@ -373,8 +380,11 @@ fieldset.islandora-metadata {
 
 #footer {
   padding-top: 1em;
-  margin-top: 1.5em;
+  margin-top: 1em;
   border-top: 1px solid #990000;
+}
+.not-front #footer {
+  margin-top: 0 !important;
 }
 
 /*
