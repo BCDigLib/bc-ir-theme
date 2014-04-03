@@ -84,7 +84,7 @@ $zen-auto-include-item-base: false;
 @media all and (min-width: 480px) {
   #navigation {
     top: 0; /* Move the navbar up inside #main's padding. */
-    height: 1em;
+    //height: 1em;
     width: $zen-grid-width;
   }
 }
@@ -174,14 +174,14 @@ $zen-auto-include-item-base: false;
   .sidebar-first {
     #content { /* Span 4 columns, starting in 2nd column from left. */
       @include zen-grid-item(4, 2);
-      margin-left: 21% !important;
-      width: 79% !important;
+      margin-left: 22% !important;
+      width: 77.2% !important;
     }
 
     .region-sidebar-first { /* Span 1 column, starting in 1st column from left. */
       @include zen-grid-item(1, 1);
       margin-right: -21% !important;
-      width: 21% !important;
+      width: 22% !important;
     }
   }
 

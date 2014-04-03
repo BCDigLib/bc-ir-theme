@@ -67,7 +67,6 @@
   #navigation {
     top: 0;
     /* Move the navbar up inside #main's padding. */
-    height: 1em;
     width: 100%;
   }
 }
@@ -198,8 +197,8 @@
     width: 80%;
     margin-left: 20%;
     margin-right: -100%;
-    margin-left: 21% !important;
-    width: 79% !important;
+    margin-left: 22% !important;
+    width: 77.2% !important;
   }
   /* line 181, ../../sass/layouts/responsive-sidebars.scss */
   .sidebar-first .region-sidebar-first {
@@ -209,7 +208,7 @@
     margin-left: 0%;
     margin-right: -20%;
     margin-right: -21% !important;
-    width: 21% !important;
+    width: 22% !important;
   }
 
   /*
