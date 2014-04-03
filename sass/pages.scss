@@ -45,9 +45,7 @@ body {
 
 #skip-link {
   margin: 0;
-
-  a,
-  a:visited {
+  a, a:visited {
     display: block;
     width: 100%;
     padding: 2px 0 3px 0;
@@ -282,7 +280,7 @@ span.field-label { /* The inline field label used by the Fences module */
 
 ul.pager li.pager-current {
   background: none repeat scroll 0 0 #CCCECF;
-  border: 1px solid #419845;
+  border: 1px solid #B29D6B;
   color: #5A5B5D;
 }
 
@@ -325,8 +323,10 @@ ul.pager li.pager-current {
 #islandora-solr-top {
   min-height: 45px;
   #secondary-display-profiles {
-    margin-top: -1px;
+    margin-top: -2px;
     margin-right: 5px;
+    border-right: 1px solid #ccc;
+    padding-right: 0.4em;
     li.last img {
       vertical-align: 2px;
     }
