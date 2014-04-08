@@ -252,7 +252,7 @@
 
 /* @Google Analytics Views */
 /* line 237, ../sass/blocks.scss */
-#block-views-object-visitors-by-month-block, #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block {
+#block-views-object-visitors-by-month-block, #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block, #block-views-frontpage-solr-boxes-block-1 {
   float: left;
   padding: 15px;
   margin: 0 10px 0 0;
@@ -294,13 +294,13 @@
 }
 
 /* Accordion Rotator */
-/* line 281, ../sass/blocks.scss */
+/* line 285, ../sass/blocks.scss */
 #block-accordion-rotator-accordion-rotator h2 {
   font-size: 120%;
   padding: 0 15px;
   font-family: 'News Cycle' !important;
 }
-/* line 286, ../sass/blocks.scss */
+/* line 290, ../sass/blocks.scss */
 #block-accordion-rotator-accordion-rotator p {
   font-size: 80%;
   font-weight: normal;
@@ -310,131 +310,131 @@
 }
 
 /* Blockify */
-/* line 300, ../sass/blocks.scss */
+/* line 304, ../sass/blocks.scss */
 #block-blockify-blockify-logo img {
   width: 75%;
 }
 
-/* line 305, ../sass/blocks.scss */
+/* line 309, ../sass/blocks.scss */
 #block-blog-recent {
   /* "Recent blog posts" block */
 }
 
-/* line 308, ../sass/blocks.scss */
+/* line 312, ../sass/blocks.scss */
 #block-book-navigation {
   /* "Book navigation" block for the current book's table of contents */
 }
 
-/* line 311, ../sass/blocks.scss */
+/* line 315, ../sass/blocks.scss */
 #block-comment-recent {
   /* "Recent comments" block */
 }
 
-/* line 314, ../sass/blocks.scss */
+/* line 318, ../sass/blocks.scss */
 #block-forum-active {
   /* "Active forum topics" block */
 }
 
-/* line 317, ../sass/blocks.scss */
+/* line 321, ../sass/blocks.scss */
 #block-forum-new {
   /* "New forum topics" block */
 }
 
-/* line 320, ../sass/blocks.scss */
+/* line 324, ../sass/blocks.scss */
 #block-locale-language {
   /* Language switcher block */
 }
 
-/* line 323, ../sass/blocks.scss */
+/* line 327, ../sass/blocks.scss */
 #block-menu-menu-NAME {
   /* Custom menu block */
 }
 
-/* line 326, ../sass/blocks.scss */
+/* line 330, ../sass/blocks.scss */
 #block-node-recent {
   /* "Recent content" block */
 }
 
-/* line 329, ../sass/blocks.scss */
+/* line 333, ../sass/blocks.scss */
 #block-node-syndicate {
   /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */
 }
 
-/* line 332, ../sass/blocks.scss */
+/* line 336, ../sass/blocks.scss */
 #block-poll-recent {
   /* "Most recent poll" block */
 }
 
-/* line 335, ../sass/blocks.scss */
+/* line 339, ../sass/blocks.scss */
 #block-profile-author-information {
   /* "Author information" block for the profile of the page's author */
 }
 
-/* line 338, ../sass/blocks.scss */
+/* line 342, ../sass/blocks.scss */
 #block-search-form {
   /* "Search form" block */
 }
 
-/* line 341, ../sass/blocks.scss */
+/* line 345, ../sass/blocks.scss */
 #block-shortcut-shortcuts {
   /* "Shortcuts" block */
 }
 
-/* line 344, ../sass/blocks.scss */
+/* line 348, ../sass/blocks.scss */
 #block-statistics-popular {
   /* "Popular content" block */
 }
 
-/* line 347, ../sass/blocks.scss */
+/* line 351, ../sass/blocks.scss */
 #block-system-main-menu {
   /* "Main menu" block */
 }
 
-/* line 350, ../sass/blocks.scss */
+/* line 354, ../sass/blocks.scss */
 #block-system-management {
   /* "Management" block for Drupal management menu */
 }
 
-/* line 353, ../sass/blocks.scss */
+/* line 357, ../sass/blocks.scss */
 #block-system-navigation {
   /* "Navigation" block for Drupal navigation menu */
 }
-/* line 354, ../sass/blocks.scss */
+/* line 358, ../sass/blocks.scss */
 #block-system-navigation ul {
   padding-left: 0;
 }
 
-/* line 359, ../sass/blocks.scss */
+/* line 363, ../sass/blocks.scss */
 #block-system-user-menu {
   /* "User menu" block for Drupal user menu */
 }
 
-/* line 362, ../sass/blocks.scss */
+/* line 366, ../sass/blocks.scss */
 #block-system-help {
   /* "System help" block */
 }
 
-/* line 365, ../sass/blocks.scss */
+/* line 369, ../sass/blocks.scss */
 #block-system-main {
   /* "Main page content" block */
 }
 
-/* line 368, ../sass/blocks.scss */
+/* line 372, ../sass/blocks.scss */
 #block-system-powered-by {
   /* "Powered by Drupal" block */
 }
 
-/* line 371, ../sass/blocks.scss */
+/* line 375, ../sass/blocks.scss */
 #block-user-login {
   /* "User login form" block */
 }
 
-/* line 374, ../sass/blocks.scss */
+/* line 378, ../sass/blocks.scss */
 #block-user-new {
   /* "Who's new" block for a list of the newest users */
 }
 
-/* line 377, ../sass/blocks.scss */
+/* line 381, ../sass/blocks.scss */
 #block-user-online {
   /* "Who's online" block for a list of the online users */
 }
@@ -442,11 +442,11 @@
 /*
  * Social Media block
 */
-/* line 384, ../sass/blocks.scss */
+/* line 388, ../sass/blocks.scss */
 #block-widgets-s-socialmedia-share-default {
   float: right;
 }
-/* line 387, ../sass/blocks.scss */
+/* line 391, ../sass/blocks.scss */
 #block-widgets-s-socialmedia-share-default .widgets-element img {
   width: 85%;
 }

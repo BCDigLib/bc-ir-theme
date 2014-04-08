@@ -274,6 +274,10 @@
   @extend #block-views-object-visitors-by-month-block;
   clear: left;
 }
+#block-views-frontpage-solr-boxes-block-1 {
+  @extend #block-views-object-visitors-by-month-block;
+}
+
 
 /* Accordion Rotator */
 
