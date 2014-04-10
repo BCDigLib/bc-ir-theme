@@ -98,8 +98,8 @@
   color: #888;
 }
 
-/* line 90, ../sass/views-styles.scss */
-#block-views-frontpage-solr-boxes-block .views-field-dctitle {
+/* line 87, ../sass/views-styles.scss */
+.view-frontpage-solr-boxes .views-field-dctitle {
   margin: 0.25em 0;
   display: inline-block;
 }
