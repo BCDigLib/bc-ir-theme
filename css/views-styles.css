@@ -54,52 +54,32 @@
   border-radius: 0 0 7px 7px;
 }
 
-/*
- * Slideshow
-*/
+/* line 50, ../sass/views-styles.scss */
+.slideshow {
+  margin-bottom: 2.5em;
+}
 /* line 52, ../sass/views-styles.scss */
-#block-views-slideshow-block {
-  height: 300px;
+.slideshow .galleria-container {
+  background: #E3E3E3;
+  max-width: 100%;
 }
-
-/* line 57, ../sass/views-styles.scss */
-.col-left {
-  clear: left;
-  float: left;
-  height: auto;
-  width: 300px;
+/* line 56, ../sass/views-styles.scss */
+.slideshow .galleria-info {
+  left: 10px;
+  bottom: 60px;
+  top: inherit;
 }
-
+/* line 60, ../sass/views-styles.scss */
+.slideshow .galleria-info .galleria-info-text {
+  display: block;
+  opacity: 0.8;
+}
 /* line 64, ../sass/views-styles.scss */
-.col-right {
-  position: absolute;
-  right: 0;
+.slideshow .galleria-info .galleria-info-link {
+  display: none;
+  top: -20px;
 }
-
-/* line 69, ../sass/views-styles.scss */
-.views-slideshow-cycle-main-frame-row {
-  width: 100%;
-}
-
-/* line 73, ../sass/views-styles.scss */
-.views-view-grid {
-  width: 100%;
-}
-/* line 76, ../sass/views-styles.scss */
-.views-view-grid td {
-  width: 25%;
-}
-/* line 79, ../sass/views-styles.scss */
-.views-view-grid a {
-  color: #3D8396;
-}
-/* line 82, ../sass/views-styles.scss */
-.views-view-grid a:hover {
-  color: #888;
-}
-
-/* line 87, ../sass/views-styles.scss */
-.view-frontpage-solr-boxes .views-field-dctitle {
-  margin: 0.25em 0;
-  display: inline-block;
+/* line 68, ../sass/views-styles.scss */
+.slideshow .galleria-info .galleria-info-close {
+  display: block;
 }
