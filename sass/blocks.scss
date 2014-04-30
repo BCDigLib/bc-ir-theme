@@ -153,10 +153,19 @@
     padding: 0;
     li {
       list-style: none;
-      margin: 0.25em 0;
+      margin: 0.75em 0;
+      line-height: 1.25em;
     }
   }
 }
+
+.view-frontpage-solr-boxes {
+  .views-row {
+    margin: 0.75em 0;    
+    line-height: 1.25em;
+  } 
+}
+
 
 /**
  * @Views Blocks
