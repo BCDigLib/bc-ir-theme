@@ -244,3 +244,15 @@ function bc_ir_theme_preprocess_html(&$variables) {
 function bc_ir_theme_block_view_islandora_solr_simple_alter(&$data, $block) {
   drupal_add_js(drupal_get_path('theme', 'bc-ir-theme') . '/js/clean_simple_search.js');
 }
+
+/**
+ * @param array $variables
+ */
+function bc_ir_theme_process_galleria_container(array &$variables) {
+  $items = &$variables['items'];
+  foreach ($items as $delta => &$item) {
+    if (isset($item['#item']['image_field_caption']['value'])) {
+      $item['#item']['attributes'] = array('longdesc' => $item['#item']['image_field_caption']['value']);
+    }
+  }
+}
