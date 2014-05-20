@@ -19,7 +19,7 @@ body {
   margin: 0;
   padding: 0;
   background: #FFF;
-  background: url('../images/bg.png?1395077337') repeat scroll 0 0 #222222;
+  background: url('../images/bg.png?1400595200') repeat scroll 0 0 #222222;
   font-family: 'ProximaNova';
   font-weight: normal;
   min-height: 100%;
@@ -376,47 +376,42 @@ ul.pager li.pager-current {
   width: auto !important;
 }
 
-/* line 311, ../sass/pages.scss */
-#mediaplayer_wrapper, #mediaplayer {
-  width: 100% !important;
-}
-
-/* line 317, ../sass/pages.scss */
+/* line 313, ../sass/pages.scss */
 #islandora-bookmark #islandora-bookmark-fedora-repository-object-form h3 {
   color: #000 !important;
 }
 
-/* line 323, ../sass/pages.scss */
+/* line 319, ../sass/pages.scss */
 #islandora-solr-top {
   min-height: 45px;
 }
-/* line 325, ../sass/pages.scss */
+/* line 321, ../sass/pages.scss */
 #islandora-solr-top #secondary-display-profiles {
   margin-top: -2px;
   margin-right: 5px;
   border-right: 1px solid #ccc;
   padding-right: 0.4em;
 }
-/* line 330, ../sass/pages.scss */
+/* line 326, ../sass/pages.scss */
 #islandora-solr-top #secondary-display-profiles li.last img {
   vertical-align: 2px;
 }
 
-/* line 336, ../sass/pages.scss */
+/* line 332, ../sass/pages.scss */
 fieldset.islandora-metadata {
   border: 0 none;
 }
-/* line 338, ../sass/pages.scss */
+/* line 334, ../sass/pages.scss */
 fieldset.islandora-metadata dt {
   text-align: left;
 }
 
-/* line 344, ../sass/pages.scss */
+/* line 340, ../sass/pages.scss */
 .ir_citationCModel .citation {
   display: block;
   margin-bottom: 1.5em;
 }
-/* line 348, ../sass/pages.scss */
+/* line 344, ../sass/pages.scss */
 .ir_citationCModel img {
   background-color: #F2F2F2;
   border: 1px solid #DDDDDD;
@@ -430,7 +425,7 @@ fieldset.islandora-metadata dt {
  * Remember to NOT add padding or margin to your .region-sidebar-first
  * (see the layout.css file.)
  */
-/* line 363, ../sass/pages.scss */
+/* line 359, ../sass/pages.scss */
 .region-sidebar-first {
   font-size: 80%;
 }
@@ -444,14 +439,14 @@ fieldset.islandora-metadata dt {
 /*
  * Footer
  */
-/* line 381, ../sass/pages.scss */
+/* line 377, ../sass/pages.scss */
 #footer {
   padding-top: 1em;
   margin-top: 1em;
   border-top: 1px solid #990000;
 }
 
-/* line 386, ../sass/pages.scss */
+/* line 382, ../sass/pages.scss */
 .not-front #footer {
   margin-top: 0 !important;
 }
@@ -459,7 +454,7 @@ fieldset.islandora-metadata dt {
 /*
  * Page bottom
  */
-/* line 394, ../sass/pages.scss */
+/* line 390, ../sass/pages.scss */
 .region-bottom {
   /* Wrapper for any blocks placed in the page bottom region */
 }
