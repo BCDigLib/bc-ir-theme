@@ -35,7 +35,10 @@ body {
 /* line 36, ../sass/pages.scss */
 #page-title {
   background: none !important;
-  font-weight: normal;
+    font-size: 27px;
+    font-weight: normal;
+    margin: 0 0 10px;
+    padding: 0;
 }
 
 /*
@@ -161,8 +164,8 @@ dl.solr-thumb {
  */
 /* line 150, ../sass/pages.scss */
 #content {
-  background: url("../images/bg.png?1395077337") repeat scroll 0 0 #efefef;
-  padding: 1em;
+  background: url("../images/bg.png?1395077337") repeat scroll 0 0 #fcfcfc;
+  padding: 20px;
   overflow: hidden;
 }
 
@@ -457,4 +460,20 @@ fieldset.islandora-metadata dt {
 /* line 390, ../sass/pages.scss */
 .region-bottom {
   /* Wrapper for any blocks placed in the page bottom region */
+}
+
+/* ADDED TO OVERWRITE THINGS, MAYBE */
+
+.islandora-compound-thumb {
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    text-align: left;
+}
+
+.islandora-compound-thumb .islandora-compound-caption {
+    float: left;
+    overflow: auto !important;
+    white-space: normal !important;
+    width: 100%;
 }
