@@ -13,7 +13,7 @@
 <?php print $islandora_content; ?>
 </div>
 <?php if (isset($islandora_download_link)): ?>
-<?php print $islandora_download_link; ?>
+<p><?php print $islandora_download_link; ?></p>
 <?php endif; ?>
 <?php endif; ?>
 </div>
