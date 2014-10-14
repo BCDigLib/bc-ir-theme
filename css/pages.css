@@ -411,12 +411,18 @@ fieldset.islandora-metadata dt {
 }
 
 /* line 340, ../sass/pages.scss */
-.ir_citationCModel .citation {
+.ir_citationCModel .citation,
+.ir_graduateETDCModel .citation,
+.ir_undergraduateETDCModel .citation,
+.bc_citationCModel .citation {
   display: block;
   margin-bottom: 1.5em;
 }
 /* line 344, ../sass/pages.scss */
-.ir_citationCModel img {
+.ir_citationCModel img,
+.ir_graduateETDCModel img,
+.ir_undergraduateETDCModel img,
+.bc_citationCModel img {
   background-color: #F2F2F2;
   border: 1px solid #DDDDDD;
   border-radius: 5px 5px 5px 5px;

@@ -340,7 +340,7 @@ fieldset.islandora-metadata {
   }
 }
 
-.ir_citationCModel {
+.ir_citationCModel, .ir_graduateETDCModel, .ir_undergraduateETDCModel, .bc_citationCModel {
   .citation {
     display: block;
     margin-bottom: 1.5em;
