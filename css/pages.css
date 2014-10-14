@@ -164,6 +164,7 @@ dl.solr-thumb {
 /* line 150, ../sass/pages.scss */
 #content {
   background: #fcfcfc;
+  margin-top: 20px;
   padding: 20px;
   overflow: hidden;
 }
@@ -172,6 +173,7 @@ dl.solr-thumb {
 .front #content {
   background: none;
   box-shadow: none;
+  margin-top: 0;
 }
 
 /* line 164, ../sass/pages.scss */

@@ -113,7 +113,6 @@
 
   <div id="main">
 
-    <?php print $breadcrumb; ?>
     <div id="content" class="column" role="main">
       <?php print render($page['highlighted']); ?>
       <a id="main-content"></a>
