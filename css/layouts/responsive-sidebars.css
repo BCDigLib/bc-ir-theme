@@ -263,7 +263,7 @@
 }
 @media all and (min-width: 1200px) {
   /* line 224, ../../sass/layouts/responsive-sidebars.scss */
-  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block, .browse-content, #block-views-frontpage-solr-boxes-block-1 {
+  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block, .browse-content, #block-views-frontpage-solr-boxes-block-1, #block-views-most-viewed-records-block {
     width: 29.9%;
   }
 
@@ -275,7 +275,7 @@
 }
 @media all and (min-width: 1024px) and (max-width: 1199px) {
   /* line 236, ../../sass/layouts/responsive-sidebars.scss */
-  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block, .browse-content, #block-views-frontpage-solr-boxes-block-1 {
+  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block, .browse-content, #block-views-frontpage-solr-boxes-block-1, #block-views-most-viewed-records-block {
     width: 29.5%;
   }
 
@@ -287,13 +287,13 @@
 }
 @media all and (min-width: 960px) and (max-width: 1023px) {
   /* line 248, ../../sass/layouts/responsive-sidebars.scss */
-  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block, .browse-content, #block-views-frontpage-solr-boxes-block-1 {
+  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block, .browse-content, #block-views-frontpage-solr-boxes-block-1, #block-views-most-viewed-records-block {
     width: 29%;
   }
 }
 @media all and (min-width: 800px) and (max-width: 959px) {
   /* line 254, ../../sass/layouts/responsive-sidebars.scss */
-  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block, .browse-content, #block-views-frontpage-solr-boxes-block-1 {
+  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block, .browse-content, #block-views-frontpage-solr-boxes-block-1, #block-views-most-viewed-records-block {
     width: 28.1%;
   }
 
@@ -314,7 +314,7 @@
 }
 @media all and (min-width: 640px) and (max-width: 799px) {
   /* line 270, ../../sass/layouts/responsive-sidebars.scss */
-  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block, .browse-content, #block-views-frontpage-solr-boxes-block-1 {
+  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block, .browse-content, #block-views-frontpage-solr-boxes-block-1, #block-views-most-viewed-records-block {
     width: 28.3% !important;
   }
 
@@ -335,7 +335,7 @@
 }
 @media all and (min-width: 320px) and (max-width: 639px) {
   /* line 286, ../../sass/layouts/responsive-sidebars.scss */
-  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1, #block-views-frontpage-solr-boxes-block, .browse-content {
+  #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block-1, #block-views-frontpage-solr-boxes-block, .browse-content, #block-views-most-viewed-records-block {
     width: 89.5% !important;
     margin-bottom: 1em !important;
   }

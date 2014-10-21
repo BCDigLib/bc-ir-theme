@@ -212,7 +212,7 @@
 
 /* @Google Analytics Views */
 /* line 200, ../sass/blocks.scss */
-#block-views-object-visitors-by-month-block, #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block, .browse-content, #block-views-frontpage-solr-boxes-block-1 {
+#block-views-object-visitors-by-month-block, #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block, .browse-content, #block-views-frontpage-solr-boxes-block-1, #block-views-most-viewed-records-block {
   float: left;
   padding: 15px;
   margin: 0 10px 0 0;
@@ -239,13 +239,13 @@
 }
 
 /* line 227, ../sass/blocks.scss */
-.block-google-analytics-reports h3 {
+.block-google-analytics-reports h3, #block-views-most-viewed-records-block h3 {
   font-size: 93%;
   color: #424143;
 }
 /* line 231, ../sass/blocks.scss */
-.block-google-analytics-reports ol, .block-google-analytics-reports p {
-  font-size: 90%;
+.block-google-analytics-reports ol, .block-google-analytics-reports p, #block-views-most-viewed-records-block ol, #block-views-most-viewed-records-block p {
+  font-size: 95%;
 }
 
 /* line 236, ../sass/blocks.scss */
