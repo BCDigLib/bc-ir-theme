@@ -244,7 +244,7 @@
   @extend #block-views-object-visitors-by-month-block;
 }
 
-#block-google-analytics-reports-dashboard {
+#block-google-analytics-reports-dashboard, #block-views-most-viewed-records-block {
   margin-right: 0 !important;
 }
 
@@ -359,4 +359,12 @@
       width: 85%; 
     }
   }
+}
+
+/* OVERWRITING OTHER STYLES */
+
+.block-islandora-bookmark h2.block-title {
+    border-bottom: 2px solid #990000;
+    font-size: 20px;
+    margin: 30px 0 0;
 }

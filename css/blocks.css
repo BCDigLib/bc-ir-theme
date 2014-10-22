@@ -254,7 +254,7 @@
 }
 
 /* line 244, ../sass/blocks.scss */
-#block-google-analytics-reports-dashboard {
+#block-google-analytics-reports-dashboard, #block-views-most-viewed-records-block {
   margin-right: 0 !important;
 }
 
@@ -414,4 +414,12 @@
 /* line 355, ../sass/blocks.scss */
 #block-widgets-s-socialmedia-share-default .widgets-element img {
   width: 85%;
+}
+
+/* OVERWRITING OTHER STYLES */
+
+.block-islandora-bookmark h2.block-title {
+    border-bottom: 2px solid #990000;
+    font-size: 20px;
+    margin: 30px 0 0;
 }
