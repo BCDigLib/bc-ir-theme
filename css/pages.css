@@ -415,8 +415,8 @@ fieldset.islandora-metadata dt {
 .ir_graduateETDCModel .citation,
 .ir_undergraduateETDCModel .citation,
 .bc_citationCModel .citation,
-.bc-ir_undergraduateETDCModel .citation,
-.bc-ir_graduateETDCModel .citation {
+.bc_ir_undergraduateETDCModel .citation,
+.bc_ir_graduateETDCModel .citation {
   display: block;
   margin-bottom: 1.5em;
 }
@@ -425,8 +425,8 @@ fieldset.islandora-metadata dt {
 .ir_graduateETDCModel img,
 .ir_undergraduateETDCModel img,
 .bc_citationCModel img,
-.bc-ir_undergraduateETDCModel img,
-.bc-ir_graduateETDCModel img {
+.bc_ir_undergraduateETDCModel img,
+.bc_ir_graduateETDCModel img {
   background-color: #F2F2F2;
   border: 1px solid #DDDDDD;
   border-radius: 5px 5px 5px 5px;
