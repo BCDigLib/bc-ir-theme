@@ -141,3 +141,10 @@ ul.secondary a:active {
   border-color: #000;
   color: #fff;
 }
+
+/* OVERWRITING OTHER STYLES */
+
+body.not-logged-in.page-islandora ul.tabs-primary {
+    display: none;
+}
+

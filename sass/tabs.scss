@@ -115,3 +115,10 @@ ul.secondary {
     color: #fff;
   }
 }
+
+
+/* OVERWRITING OTHER STYLES */
+
+body.not-logged-in.page-islandora ul.tabs-primary {
+    display: none;
+}
