@@ -34,10 +34,11 @@ body {
 
 /* line 36, ../sass/pages.scss */
 #page-title {
-  background: none !important;
-    font-size: 27px;
-    margin: 0 0 10px;
-    padding: 0;
+    background: none !important;
+    border-bottom: 1px solid #bbbbbb;
+    font-size: 26px;
+    margin: 0 0 25px;
+    padding: 0 0 10px;
 }
 
 /*
