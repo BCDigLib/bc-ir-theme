@@ -413,6 +413,6 @@ width: 100%;
 
 /* Suppress display of .fgs-label-s on Main Solr Results. fgs-label-s meant for Bookmark display only. */
 
-solr-fields .fgs-label-s {
+.solr-fields .fgs-label-s {
   display: none !important;
 } 
