@@ -233,9 +233,9 @@ function bc_ir_theme_form_islandora_solr_simple_search_form_alter(&$form, &$form
 }
 
 function bc_ir_theme_preprocess_html(&$variables) {
-  drupal_add_css('http://openfontlibrary.org/face/linear-regular', array('group' => CSS_THEME, 'preprocess' => FALSE));
-  drupal_add_css('http://openfontlibrary.org/face/open-baskerville', array('group' => CSS_THEME, 'preprocess' => FALSE));
-  drupal_add_css('http://openfontlibrary.org/face/news-cycle', array('group' => CSS_THEME, 'preprocess' => FALSE));
+  drupal_add_css('https://fontlibrary.org/face/linear-regular', array('group' => CSS_THEME, 'preprocess' => FALSE));
+  drupal_add_css('https://fontlibrary.org/face/open-baskerville', array('group' => CSS_THEME, 'preprocess' => FALSE));
+  drupal_add_css('https://fontlibrary.org/face/news-cycle', array('group' => CSS_THEME, 'preprocess' => FALSE));
 }
 
 /**
