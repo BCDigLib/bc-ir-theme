@@ -168,6 +168,10 @@
   margin: 0.75em 0;
   line-height: 1.25em;
 }
+#block-views-most-viewed-records-block ol li {
+  margin: 0.75em 0;
+  line-height: 1.25em;
+}
 
 /* line 163, ../sass/blocks.scss */
 .view-frontpage-solr-boxes .views-row {
@@ -215,7 +219,7 @@
 #block-views-object-visitors-by-month-block, #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block, .browse-content, #block-views-frontpage-solr-boxes-block-1, #block-views-most-viewed-records-block {
   float: left;
   padding: 15px;
-  margin: 0 10px 0 0;
+  margin: 0 1% 0 0;
   background: #f9f9f9;
   min-height: 520px;
   box-shadow: 0 0 2px 1px rgba(38, 37, 38, 0.3);
@@ -240,13 +244,13 @@
 
 /* line 227, ../sass/blocks.scss */
 .block-google-analytics-reports h3, #block-views-most-viewed-records-block h3 {
-  font-size: 93%;
   color: #424143;
 }
-/* line 231, ../sass/blocks.scss */
+/* line 231, ../sass/blocks.scss 
 .block-google-analytics-reports ol, .block-google-analytics-reports p, #block-views-most-viewed-records-block ol, #block-views-most-viewed-records-block p {
   font-size: 95%;
 }
+*/
 
 /* line 236, ../sass/blocks.scss */
 #block-views-frontpage-solr-boxes-block, .browse-content {
@@ -402,6 +406,15 @@
 /* line 345, ../sass/blocks.scss */
 #block-user-online {
   /* "Who's online" block for a list of the online users */
+}
+
+/* Updated block widths after removing 'Recent Additions' */
+#block-menu-menu-browse-content {
+  width: 46.5%;
+}
+
+#block-views-most-viewed-records-block {
+  width: 46.5%;
 }
 
 /*
